@@ -10,12 +10,6 @@ import FlowElementFlow from './elements/FlowElementFlow';
 import FlowElementPool from './elements/FlowElementPool';
 import FlowElementLane from './elements/FlowElementLane';
 
-const isSelected = (tabs, code) => {
-    const tab = tabs.find(d => d.code===code);
-
-    return tab.select;
-};
-
 const selectedTabCode = (location, tabs) => {
     const query_params = new URLSearchParams(location.search);
     let selected_code = query_params.get('tab');
@@ -27,7 +21,7 @@ const selectedTabCode = (location, tabs) => {
 };
 
 function PageElements (props) {
-    const [tabs, setTabs] = useState([
+    const [tabs] = useState([
         { code: 'event',    label: 'イベント' },
         { code: 'task',     label: 'タスク' },
         { code: 'activity', label: 'アクティビティ' },
@@ -42,7 +36,6 @@ function PageElements (props) {
     };
 
     const selected_code = selectedTabCode(props.location, tabs);
-    console.log(selected_code);
     return (
         <div style={{marginTop: 22, marginLeft: 77}}>
 

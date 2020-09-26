@@ -6,6 +6,7 @@ import page_elements from './page_elements';
 import page_write from './page_write';
 import page_view from './page_view';
 import page_home from './page_home';
+import page_model from './page_model';
 
 export default combineReducers({
     global_menu,
@@ -14,4 +15,5 @@ export default combineReducers({
     page_write,
     page_view,
     page_home,
+    page_model,
 });
