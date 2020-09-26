@@ -8,14 +8,16 @@ let StoreModel = {
     modals: {},
     page_home: {},
     page_elements: {},
-    page_b: {},
-    page_c: {},
+    page_write: {},
+    page_view: {},
+    page_xml: {},
     global_menu: {
         menus: [
             { code: 'home',     label: 'Home', to: '/',         select: false },
             { code: 'elements', label: '要素', to: '/elements', select: true },
-            { code: 'c',        label: 'P. B', to: '/b',        select: false },
-            { code: 'd',        label: 'P. C', to: '/c',        select: false },
+            { code: 'write',    label: '書く', to: '/write',    select: false },
+            { code: 'view',     label: '表示', to: '/view',     select: false },
+            { code: 'xml',      label: 'XML', to: '/xml',       select: false },
         ],
     },
 };

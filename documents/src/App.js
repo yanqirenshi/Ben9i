@@ -8,8 +8,9 @@ import {
 
 import PageHome from './pages/PageHome';
 import PageElements from './pages/PageElements';
-import PageB from './pages/PageB';
-import PageC from './pages/PageC';
+import PageWrite from './pages/PageWrite';
+import PageView from './pages/PageView';
+import PageXML from './pages/PageXML';
 
 import GlobalMenu from './components/GlobalMenu';
 
@@ -19,8 +20,9 @@ function App(props) {
           <Switch>
             <Route exact path='/'         component={PageHome} />
             <Route exact path='/elements' component={PageElements} />
-            <Route exact path='/b'        component={PageB} />
-            <Route exact path='/c'        component={PageC} />
+            <Route exact path='/write'    component={PageWrite} />
+            <Route exact path='/view'     component={PageView} />
+            <Route exact path='/xml'      component={PageXML} />
           </Switch>
 
           <Route component={GlobalMenu} />

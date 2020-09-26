@@ -1,10 +1,10 @@
 import React from 'react';
 
-function PageB () {
+function PageXML () {
     return (
         <div>
         </div>
     );
 }
 
-export default PageB;
+export default PageXML;

@@ -1,4 +1,4 @@
-const page_b = (state = [], action) => {
+const page_write = (state = [], action) => {
     switch (action.type) {
 
     default:
@@ -6,4 +6,4 @@ const page_b = (state = [], action) => {
     }
 };
 
-export default page_b;
+export default page_write;

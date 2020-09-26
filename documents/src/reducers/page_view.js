@@ -1,4 +1,4 @@
-const page_c = (state = [], action) => {
+const page_view = (state = [], action) => {
     switch (action.type) {
 
     default:
@@ -6,4 +6,4 @@ const page_c = (state = [], action) => {
     }
 };
 
-export default page_c;
+export default page_view;

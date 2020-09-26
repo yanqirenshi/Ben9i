@@ -1,10 +1,10 @@
 import React from 'react';
 
-function PageC () {
+function PageWrite () {
     return (
         <div>
         </div>
     );
 }
 
-export default PageC;
+export default PageWrite;
