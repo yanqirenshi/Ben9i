@@ -14,5 +14,10 @@ code {
 
 
 section.section > div.container {
-    padding-left: 33px
+    padding-left: 33px;
+}
+
+
+.table thead th {
+    background: rgba(165, 149, 100, 0.3);
 }
