@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import Tabs from './elements/Tabs';
+import Tabs from '../components/Tabs';
 
 import FlowElementEvent from './elements/FlowElementEvent';
 import FlowElementActivity from './elements/FlowElementActivity';
